@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <groupId>org.needle4k</groupId>
+    <groupId>io.github.needle4k</groupId>
     <artifactId>needle4k-jakarta</artifactId>
     <version>4.0.1-SNAPSHOT</version>
 
@@ -404,7 +404,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <!-- Contains Model JSON -->
-                                    <groupId>org.needle4k</groupId>
+                                    <groupId>io.github.needle4k</groupId>
                                     <artifactId>needle4k</artifactId>
                                     <classifier>sources</classifier>
                                     <version>${project.version}</version>
@@ -429,7 +429,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <!-- Contains Model JSON -->
-                                    <groupId>org.needle4k</groupId>
+                                    <groupId>io.github.needle4k</groupId>
                                     <artifactId>needle4k</artifactId>
                                     <classifier>test-sources</classifier>
                                     <version>${project.version}</version>
